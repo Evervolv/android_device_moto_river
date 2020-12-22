@@ -15,9 +15,9 @@
 #
 
 # Inherit from motorola sdm632-common
--include device/motorola/sdm632-common/BoardConfigCommon.mk
+-include device/moto/sdm632-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/river
+DEVICE_PATH := device/moto/river
 
 # Assertions
 TARGET_OTA_ASSERT_DEVICE := river
@@ -37,4 +37,4 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 861507584     #   841316 * 1024 mmcblk0p60-6
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # inherit from the proprietary version
--include vendor/motorola/river/BoardConfigVendor.mk
+-include vendor/moto/river/BoardConfigVendor.mk

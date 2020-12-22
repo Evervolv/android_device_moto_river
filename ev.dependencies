@@ -1,0 +1,14 @@
+[
+ {
+   "repository": "android_device_motorola_sdm632-common",
+   "target_path": "device/moto/sdm632-common"
+ },
+ {
+   "repository":  "android_kernel_motorola_sdm632",
+   "target_path": "kernel/moto/sdm632"
+ },
+ {
+   "repository":  "android_vendor_motorola",
+   "target_path": "vendor/moto"
+ }
+]

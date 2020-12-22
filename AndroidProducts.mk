@@ -15,4 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du.mk
+    $(LOCAL_DIR)/ev_river.mk
+
+COMMON_LUNCH_CHOICES := \
+    ev_river-userdebug

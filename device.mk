@@ -15,7 +15,7 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/river/river-vendor.mk)
+$(call inherit-product-if-exists, vendor/moto/river/river-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
@@ -88,4 +88,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
 # Inherit from motorola sdm632-common
-$(call inherit-product, device/motorola/sdm632-common/common.mk)
+$(call inherit-product, device/moto/sdm632-common/common.mk)
