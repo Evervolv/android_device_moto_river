@@ -15,7 +15,7 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/moto/river/river-vendor.mk)
+$(call inherit-product, vendor/moto/river/river-vendor.mk)
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
