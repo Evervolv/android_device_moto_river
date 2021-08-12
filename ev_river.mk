@@ -28,8 +28,6 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 BOOT_ANIMATION_SIZE := 1080p
 
-WITH_GMS := true
-
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := river
 PRODUCT_MANUFACTURER := Motorola
