@@ -20,6 +20,7 @@
 DEVICE_PATH := device/moto/river
 
 # Assertions
+TARGET_BOARD_INFO_FILE := device/moto/river/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := river
 
 # Kernel
