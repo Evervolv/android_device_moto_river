@@ -23,6 +23,9 @@ DEVICE_PATH := device/moto/river
 TARGET_BOARD_INFO_FILE := device/moto/river/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := river
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
